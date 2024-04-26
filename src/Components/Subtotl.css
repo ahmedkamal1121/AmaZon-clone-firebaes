@@ -1,0 +1,8 @@
+.subtotl {
+  background-color: rgb(251, 251, 251);
+  padding: 6px 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 120px;
+}

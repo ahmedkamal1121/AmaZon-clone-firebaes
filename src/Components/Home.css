@@ -1,0 +1,18 @@
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2% 2%;
+  justify-content: center;
+}
+
+.cont {
+  margin-top: -280px;
+}
+
+@media (max-width: 768px) {
+  .home-img {
+    width: 130%;
+    height: 400px;
+  }
+}

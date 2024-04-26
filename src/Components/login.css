@@ -1,0 +1,41 @@
+.box {
+  width: 235px;
+  height: 290px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box form {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  padding: 13px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
+}
+.box form input {
+  padding: 5px;
+}
+
+.box form input:focus {
+  outline: none;
+}
+
+.p-login {
+  font-size: 11px;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .box {
+    top: 30%;
+  }
+}
